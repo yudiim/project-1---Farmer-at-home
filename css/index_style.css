@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url(../font/Cafe24SsurroundAir.woff);
+}
+@font-face {
+    font-family: 'NanumSquareRoundB_1';
+    src: url(../font/NanumSquareRoundB_1.woff);
+}
+@font-face {
+    font-family: 'NanumSquareRoundR_1';
+    src: url(../font/NanumSquareRoundR_1.woff);
+}
+@font-face {
+    font-family: 'NanumSquareRoundL_1';
+    src: url(../font/NanumSquareRoundL_1.woff);
+}
+
+
+h1{ font-family: 'NanumSquareRoundB_1',sans-serif;}
+h2,h3,h4,h5,h6{ font-family: 'NanumSquareRoundL_1',sans-serif;}
+a{ font-family: 'NanumSquareRoundB_1',sans-serif; }
+li{ font-family: 'NanumSquareRoundL_1',sans-serif;}
+body{ box-sizing: border-box; color: #404040;}
+
+/* header_banner */
+.header_banner {
+    /* width: 1430px;  */
+    height: 257px; position: relative;}
+/* .header_banner .banner a{width: 1431px; height: 257px;} */
+.header_banner .banner > img{ width: 100%; position: absolute; top: 0; left: 0;}
+
+
+/* container */
+#container{width: 100%; height: 3400px; background-image: url(../img/white-paper-texture-background_02.jpg) ;}
+
+.home_gardening{width: 100%; height: 700px; padding-top: 90px;}
+.home_gardening > .title{width: 1430px; height: 129px; position: relative;}
+.home_gardening > .title h1{ text-align: center; line-height: 130px; font-size: 40px; font-weight: normal;}
+.home_gardening .more{ display: block; width: 100px; line-height: 40px; background-color: #fabb7c; text-align: center; border-radius: 30px;
+    position: absolute; top: 50%; right: 450px; transform: translate(-50%,-50%);
+    border: 0;}
+.home_gardening .more > a{ color: #fff; font-size: 20px;}
+.home_gardening .item_list{ width: 1430px; height: 493px; display: flex; justify-content: space-around;}
+.home_gardening .item_01{width: 341px; height: 491px; 
+    /* border: 1px solid #e3e3e3;  */
+    text-align: center; background: #fff; box-shadow: 5px 5px 7px #d7d7d7;}
+.home_gardening .item_01 a{width: 341px; height: 491px; float: left; margin: 10px 0;}
+.home_gardening .descript{ width: 100%; padding-top: 12px;}
+.home_gardening h4{ padding-bottom: 12px; width: 90%; border-bottom: 1px solid #ccc; margin: 0 15px;}
+.home_gardening .level{ text-align: center; padding: 10px 10px 5px;  font-size: 13px;
+     box-sizing: border-box; color: #807f7f;}
+.home_gardening .level img{ width: 44px;}
+.home_gardening .icon{  padding-bottom: 5px; }
+.home_gardening .icon img{ width: 44px;}
+.home_gardening .price{ padding: 15px 0; font-size: 14px; font-weight: bold;}
+
+
+
+.plant{width: 100%; height: 700px; margin: 50px 0 57px 0;}
+.plant > .title{width: 1430px; height: 130px; position: relative;}
+.plant > .title h1{ text-align: center; line-height: 130px; font-size: 40px; font-weight: normal;}
+.plant .more{ display: block; width: 100px; line-height: 40px; background-color: #fabb7c; text-align: center; border-radius: 30px;
+    position: absolute; top: 50%; right: 450px; transform: translate(-50%,-50%);
+    border: 0;}
+.plant .more > a{ color: #fff; font-size: 20px;}
+.plant .item_list{ width: 1430px; height: 493px; display: flex; justify-content: space-around;}
+.plant .item_02{width: 341px; height: 491px; 
+    /* border: 1px solid #e3e3e3;  */
+    text-align: center; background: #fff; box-shadow: 5px 5px 7px #d7d7d7;}
+.plant .item_02 a{width: 341px; height: 323px; float: left; margin: 10px 0;}
+.plant .descript{ width: 100%; padding-top: 12px;}
+.plant h4{ padding-bottom: 12px; width: 90%; border-bottom: 1px solid #ccc; margin: 0 15px;}
+.plant .level{ text-align: center; padding: 10px 10px 5px;  font-size: 13px;
+     box-sizing: border-box; color: #807f7f;}
+.plant .level img{ width: 44px;}
+.plant .icon{  padding-bottom: 5px; }
+.plant .icon img{ width: 44px;}
+.plant .price{ padding: 15px 0; font-size: 14px; font-weight: bold;}
+
+.membership_guide{width: 1430px; height: 230px; background: #fff;
+     /* border: 1px solid #e3e3e3;  */
+     box-shadow: 5px 5px 7px #d7d7d7;}
+.membership_guide .contents_03{width: 184px; height: 100px; float: left; margin: 57px 0 0 95px;}
+.membership_guide .contents_04{width: 184px; height: 100px; float: left; margin: 57px 0 0 95px;}
+.membership_guide .contents_05{width: 184px; height: 100px; float: left; margin: 57px 0 0 95px;}
+.membership_guide .contents_06{width: 184px; height: 100px; float: left; margin: 57px 0 0 95px;}
+.membership_guide .contents_07{width: 184px; height: 100px; float: left; margin: 57px 0 0 95px;}
+
+.prop{width: 1430px; height: 700px; margin-top: 100px;}
+.prop > .title{width: 1430px; height: 130px; position: relative;}
+.prop > .title h1{ text-align: center; line-height: 130px; font-size: 40px; font-weight: normal;}
+.prop .more{ display: block; width: 100px; line-height: 40px; background-color: #fabb7c; text-align: center; border-radius: 30px;
+    position: absolute; top: 50%; right: 450px; transform: translate(-50%,-50%);
+    border: 0;}
+.prop .more > a{ color: #fff; font-size: 20px;}
+.prop .item_list{ width: 1430px; height: 493px; display: flex; justify-content: space-around;}
+.prop .item_03{width: 341px; height: 491px; 
+    /* border: 1px solid #e3e3e3; */
+    text-align: center;background: #fff; box-shadow: 5px 5px 7px #d7d7d7;}
+.prop .item_03 a{width: 341px; height: 323px; float: left; margin: 10px 0; }
+.prop .descript{ width: 100%; padding-top: 12px;}
+.prop h4{ padding-bottom: 12px; width: 90%; border-bottom: 1px solid #ccc; margin: 0 15px;}
+.prop .icon{  padding: 15px; }
+.prop .icon img{ width: 44px;}
+.prop .price{ padding: 15px 0; font-size: 14px; font-weight: bold;}
+
+.review{width: 1430px; height: 700px; margin-top: 28px; }
+.review > .title{width: 1430px; height: 130px; position: relative;}
+.review > .title h1{ text-align: center; line-height: 130px; font-size: 40px; font-weight: normal;}
+.review .more{ display: block; width: 100px; line-height: 40px; background-color: #fabb7c; text-align: center; border-radius: 30px;
+    position: absolute; top: 50%; right: 450px; transform: translate(-50%,-50%);
+    border: 0;}
+.review .more > a{ color: #fff; font-size: 20px;}
+.review .review_list{ width: 1430px; height: 493px; display: flex; justify-content: space-around;}
+.review .review_01{width: 336px; height: 537px; 
+    /* border: 1px solid #e3e3e3;  */
+    text-align: left;background: #fff;box-shadow: 5px 5px 7px #d7d7d7;}
+.review .review_01 a{width: 336px; height: 537px; float: left; margin: 10px 10px; }
+.review .review_contents{ width: 80%; /* padding-top: 12px; */ margin: 30px 20px;  position: relative;}
+.review h3{ padding-bottom: 12px;}
+.review .ID{ display: inline-block; line-height: 35px;}
+.review .stars{ display: inline-block; position: absolute; right: -35px;}
+.review .stars img{ width: 80%;}
+.review .descript{ padding-top: 30px; border-top: 1px solid #e3e3e3;}
